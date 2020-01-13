@@ -2283,7 +2283,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &431727351
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2866,8 +2866,8 @@ MonoBehaviour:
   rb: {fileID: 526802193}
   movementForceMultiplier: 3000
   jumpForceMultiplier: 5000
---- !u!61 &526802192
-BoxCollider2D:
+--- !u!60 &526802192
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2879,7 +2879,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.004494846, y: -0.010338068}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2889,9 +2889,14 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2.3371496, y: 2.2083373}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: -1.0701678, y: 1.1074575}
+      - {x: -1.1152029, y: -1.0594922}
+      - {x: 1.1166435, y: -1.1183349}
+      - {x: 1.148797, y: -1.1718982}
+      - {x: 1.1189871, y: 1.0766017}
+      - {x: 1.1599649, y: 1.1155585}
 --- !u!50 &526802193
 Rigidbody2D:
   serializedVersion: 4
@@ -5548,7 +5553,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &972454337
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7124,7 +7129,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.7019608, g: 0.6431373, b: 0.63529414, a: 1}
+  m_Color: {r: 0.7137255, g: 0.6392157, b: 0.63529414, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -7840,7 +7845,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.7490196, g: 0.6313726, b: 0.6313726, a: 1}
+  m_Color: {r: 0.7294118, g: 0.63529414, b: 0.63529414, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -9953,8 +9958,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 11, y: -44}
-  m_SizeDelta: {x: 513, y: 539.95}
+  m_AnchoredPosition: {x: 31, y: -7}
+  m_SizeDelta: {x: 574.2, y: 604.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1928442316
 MonoBehaviour:
