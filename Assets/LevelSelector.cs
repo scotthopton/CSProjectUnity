@@ -116,6 +116,8 @@ public class LevelSelector : MonoBehaviour
                 P2P3Buttons[1].interactable = false;
 
             }
+            phaseOneButtons.SetActive(false);
+            phaseTwoThreeButtons.SetActive(true);
         }
     }
 

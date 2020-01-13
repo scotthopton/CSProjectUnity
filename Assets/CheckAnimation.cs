@@ -8,7 +8,7 @@ public class CheckAnimation : MonoBehaviour
     public GameObject levelCompletePg;
     IEnumerator Animation()
     {
-        yield return new WaitForSeconds(0.6f);
+        yield return new WaitForSeconds(0.5f);
         levelSelect.hideLevel();    
         gameObject.SetActive(false);
         levelCompletePg.SetActive(true);
